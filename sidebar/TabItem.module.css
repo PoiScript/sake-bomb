@@ -1,0 +1,19 @@
+.tab {
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  padding-left: 16px;
+  padding-right: 16px;
+  height: 48px;
+  color: rgba(0, 0, 0, 0.87);
+  cursor: pointer;
+}
+
+.tab:hover {
+  background-color: rgba(0, 0, 0, 0.04);
+}
+
+.tab.active {
+  background-color: rgba(0, 0, 0, 0.12);
+}
